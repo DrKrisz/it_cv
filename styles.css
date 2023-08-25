@@ -1,0 +1,38 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #007bff;
+    color: #fff;
+    text-align: center;
+    padding: 2rem 0;
+    width: 100%;
+}
+
+.info, .experience, .education {
+    margin: 2rem;
+    padding: 1rem;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+
+    margin: 0 50vh 0 50vh;
+}
+
+.info h2, .experience h2, .education h2 {
+    margin-top: 0;
+}
+
+.job, .degree {
+    margin-top: 1rem;
+}
+
+.job h3, .degree h3 {
+    margin: 0;
+}
+
+.job p, .degree p {
+    margin: 0.5rem 0;
+}
